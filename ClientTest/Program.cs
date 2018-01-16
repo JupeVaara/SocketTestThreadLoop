@@ -13,6 +13,7 @@ namespace ClientTest
     {
         static void Main(string[] args)
         {
+            // portti jota käytetään
             int port = 8221;
             TcpClient client = new TcpClient("localhost", port);
 
